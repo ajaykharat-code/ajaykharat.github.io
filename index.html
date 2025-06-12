@@ -1,148 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ajay Kharat | Java Backend Engineer Portfolio">
-  <title>Ajay Kharat | Software Engineer Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ajay Kharat | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Fira Code', monospace;
+      background-color: #f9f9f9;
+      color: #1e1e1e;
       margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
+      padding: 0 1rem;
       line-height: 1.6;
     }
-    header, section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    header {
+    h1, h2, h3, h4 {
       text-align: center;
-      background: #1E90FF;
-      color: white;
+      color: #1e90ff;
     }
-    header h1 {
-      margin-bottom: 0.5rem;
+    section {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem 0;
     }
-    header h3 {
-      margin-top: 0;
-      font-weight: 400;
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 2rem 0;
     }
-    section h2 {
-      color: #1E90FF;
-      border-bottom: 2px solid #1E90FF;
-      padding-bottom: 5px;
+    ul {
+      list-style-type: none;
+      padding-left: 0;
     }
-    ul, li {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-    .highlight {
-      background: #e8f4fd;
-      padding: 1rem;
-      border-left: 4px solid #1E90FF;
-      margin-bottom: 1rem;
-    }
-    .code {
-      font-family: monospace;
-      background: #eee;
-      padding: 0.2rem 0.5rem;
-      border-radius: 3px;
+    li::before {
+      content: '🚀';
+      margin-right: 0.5rem;
     }
     a {
-      color: #1E90FF;
+      color: #1e90ff;
       text-decoration: none;
     }
-    .stats img {
-      max-width: 100%;
+    a:hover {
+      text-decoration: underline;
+    }
+    .tech-section code {
+      background-color: #eaeaea;
+      padding: 0.2rem 0.5rem;
+      margin: 0.2rem;
+      display: inline-block;
+      border-radius: 5px;
     }
   </style>
 </head>
+
 <body>
-  <header>
-    <h1>Hi, I'm Ajay Kharat 👨‍💻</h1>
-    <h3>Java Backend Developer | DevOps & Cloud Enthusiast | System Design Explorer</h3>
-    <p><em>Code. Build. Scale. Repeat.</em></p>
-  </header>
+  <h1>Hi, I'm Ajay Kharat 👨‍💻</h1>
+  <h3>Java Backend Developer | DevOps & Cloud Enthusiast | System Design Explorer</h3>
 
+  <p align="center">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=1E90FF&center=true&width=570&lines=Code.+Build.+Scale.+Repeat.;Backend+Engineer+driven+by+impact+%F0%9F%9A%80" alt="Typing SVG" />
+  </p>
+
+  <hr>
   <section>
-    <h2>About Me</h2>
-    <p>
-      I’m a <strong>Software Engineer</strong> with <strong>3.5+ years</strong> of experience delivering robust, scalable, and secure backend systems in the <strong>Banking</strong> and <strong>Pharmaceutical</strong> domains. I specialize in <strong>Java Spring Boot microservices</strong> using event-driven and REST-based architectures.
+    <h2>👨‍💻 About Me</h2>
+    <p>🚀 I'm a <strong>Software Engineer</strong> with <strong>3.5+ years</strong> of experience delivering <strong>robust, scalable, and secure backend systems</strong> in the <strong>Banking</strong> and <strong>Pharmaceutical</strong> domains. I specialize in building <strong>Java Spring Boot microservices</strong> using <strong>event-driven</strong> and <strong>REST-based MVC architectures</strong>.</p>
+
+    <p>🏦 At <strong>Cognizant</strong>, I'm currently contributing to <strong>ING Bank (Belgium)</strong> on their Core Banking platform. where I design, develop, deploy, and maintain core integration microservices in the <strong>Cards & Daily Banking</strong> area. Developed and delivered <strong>16+</strong> RESTful microservices and enhanced <strong>37+</strong> existing services, significantly improving system performance, reliability, and scalability.</p>
+
+    <p>🌐 Previously, I worked for <strong>Merck KGaA</strong>, where I built Block Order Management System from scratch using Spring Batch and dynamic compliance rule engines to automate pharmaceutical supply chain workflows.</p>
+
+    <p>⚙️ Taking full ownership of the entire <strong>SDLC</strong>, I lead efforts from requirement analysis and backend development with <strong>Spring Boot</strong> and <strong>Kafka</strong>, through <strong>unit/integration testing</strong>, <strong>code reviews</strong>, and <strong>CI/CD pipeline</strong> setup using <strong>Git</strong>, <strong>Azure DevOps</strong>, <strong>Docker</strong>, and <strong>Kubernetes</strong>.</p>
+
+    <p>🎓 I'm also pursuing my <strong>Master’s in Computer Science</strong> (Woolf University), further strengthening my understanding of <strong>data structures</strong>, <strong>system design</strong>, and <strong>computer fundamentals</strong>.</p>
+
+    <p>🧠 I love solving real-world problems through <strong>code</strong>, <strong>architecture</strong>, and <strong>collaboration</strong> — and I take pride in being a <strong>full-stack engineer</strong> who owns the product from <strong>design to deployment</strong>.</p>
+  </section>
+
+  <hr>
+  <section class="tech-section">
+    <h2>🧠 Tech Stack & Skills</h2>
+    <p><strong>Programming Languages:</strong><br>
+      <code>Java</code> <code>Python</code> <code>C</code> <code>C++</code> <code>SQL</code> <code>CQL</code> <code>JavaScript</code> <code>HTML</code> <code>CSS</code>
     </p>
-    <div class="highlight">
-      <p><strong>At Cognizant</strong>, I contribute to <strong>ING Bank (Belgium)</strong> building core banking integration microservices.</p>
-      <p>At <strong>Merck KGaA</strong>, I built a Block Order Management System automating pharmaceutical workflows using Spring Batch.</p>
-    </div>
-    <p>
-      I take end-to-end ownership of SDLC using <strong>Kafka</strong>, <strong>CI/CD</strong>, <strong>Docker</strong>, and <strong>Kubernetes</strong>. I’m also pursuing a <strong>Master’s in Computer Science</strong> and love solving real-world problems through <strong>architecture and automation</strong>.
+    <p><strong>Frameworks & Libraries:</strong><br>
+      <code>Spring Boot</code> <code>Spring MVC</code> <code>Spring Data JPA</code> <code>Spring Cloud</code> <code>Spring Security</code> <code>Spring AOP</code> <code>Spring Batch</code> <code>Hibernate</code> <code>JPA</code> <code>JUnit</code> <code>Mockito</code> <code>Maven</code> <code>Angular</code> <code>Bootstrap</code>
+    </p>
+    <p><strong>Cloud & DevOps:</strong><br>
+      <code>Azure DevOps</code> <code>Git</code> <code>CI/CD Pipelines</code> <code>Docker</code> <code>Kubernetes</code> <code>Checkmarx</code> <code>Prisma</code> <code>Confluence</code> <code>ServiceNow</code>
+    </p>
+    <p><strong>Monitoring & Logging:</strong><br>
+      <code>Prometheus</code> <code>Grafana</code> <code>Loki</code> <code>ELK Stack (Elasticsearch, Logstash, Kibana)</code>
+    </p>
+    <p><strong>Data Technologies:</strong><br>
+      <code>Apache Kafka</code> <code>Kafka Streams</code> <code>Avro</code> <code>Cassandra</code> <code>Oracle DB</code> <code>PostgreSQL</code> <code>MySQL</code> <code>ETL</code> <code>Schema Design</code>
+    </p>
+    <p><strong>Core Competencies:</strong><br>
+      <code>RESTful APIs</code> <code>Microservices</code> <code>Secure SDLC</code> <code>Multithreading</code> <code>Concurrency</code> <code>System Design</code> <code>LLD</code> <code>HLD</code> <code>Design Patterns</code> <code>OAuth 2.0</code> <code>JWT</code> <code>SSL/TLS</code> <code>Unit Testing</code> <code>Code Review</code> <code>Agile Development</code> <code>Mentoring</code>
     </p>
   </section>
 
+  <hr>
   <section>
-    <h2>Tech Stack & Skills</h2>
-    <p><strong>Languages:</strong> Java, Python, C, C++, SQL, CQL, JavaScript, HTML, CSS</p>
-    <p><strong>Frameworks:</strong> Spring Boot, MVC, JPA, Security, Hibernate, JUnit, Mockito, Angular, Bootstrap</p>
-    <p><strong>Cloud/DevOps:</strong> Azure DevOps, Git, CI/CD, Docker, Kubernetes, Prisma</p>
-    <p><strong>Monitoring:</strong> Prometheus, Grafana, Loki, ELK</p>
-    <p><strong>Data:</strong> Kafka, Avro, Cassandra, PostgreSQL, MySQL, ETL</p>
-    <p><strong>Core:</strong> REST APIs, Microservices, Secure SDLC, System Design, OAuth2, JWT, SSL/TLS</p>
-  </section>
-
-  <section>
-    <h2>Career Highlights</h2>
+    <h2>🏆 Career Highlights</h2>
     <ul>
-      <li>Engineered 86+ production-grade microservices on Azure Cloud</li>
-      <li>Improved API latency by 70% using Kafka + Cassandra-based caching</li>
-      <li>Automated TLS certificate renewal using SPIFFE + ACME</li>
-      <li>Led team of 5 junior developers, improving sprint velocity by 25%</li>
+      <li>Engineered 86+ production-grade microservices on Azure Cloud with high test coverage and observability.</li>
+      <li>Improved API latency by 70% by implementing Kafka + Cassandra-based caching for 30M+ req/day services.</li>
+      <li>Reduced SSL/TLS ops effort by 70% by automating cert renewals using SPIFFE + ACME.</li>
+      <li>Designed centralized AOP-based logging for 86+ services with dual-topic support (tech + business).</li>
+      <li>Led team of 5 junior devs and mentored SDLC delivery pipelines, improving sprint velocity by 25%.</li>
+      <li>Eliminated manual alerts in pharmaceutical compliance using batch automation and mail scheduling.</li>
+      <li>Integrated full CI/CD pipeline with linting, static code analysis, sonar, and automated tests via Azure DevOps.</li>
     </ul>
   </section>
 
+  <hr>
   <section>
-    <h2>Projects</h2>
+    <h2>💻 Featured Projects</h2>
     <ul>
-      <li><strong>Movie Ticket Booking System:</strong> Spring Boot + PostgreSQL concurrency-safe backend</li>
-      <li><strong>Expense Sharing System:</strong> Heap-based optimizer using design patterns</li>
-      <li><strong>Pharmacy Supply App:</strong> Angular + Spring Boot full-stack platform</li>
-      <li><strong>Block Order System:</strong> Spring Batch rule engine + cron jobs</li>
+      <li><strong>Movie Ticket Booking System</strong> – Concurrency-safe backend simulating real-world bookings with soft seat blocking, expiry logic, and transactional integrity using Java, Spring Boot, and PostgreSQL.</li>
+      <li><strong>Expense Sharing & Settlement System</strong> – Optimized payment flow using heap-based algorithms and Command & Strategy Design Patterns, reducing total settlements by up to 80%.</li>
+      <li><strong>Pharmacy Supply Management System</strong> – Full-stack app using Angular & Spring Boot, streamlining MR scheduling, doctor visits, and stock-based pharmacy supply.</li>
+      <li><strong>Block Order Management System</strong> – Compliance-driven rule engine using Spring Batch, with dynamic HTML email templating and cron scheduling — ensuring zero manual effort.</li>
     </ul>
   </section>
 
+  <hr>
   <section>
-    <h2>Education</h2>
-    <p><strong>MSc in Computer Science</strong> – Woolf University (2024–2026)<br>CGPA: 3.9 / 4</p>
-    <p><strong>B.E. in Computer Engineering</strong> – SKNCOE, Pune (2018–2022)<br>CGPA: 9.6 / 10</p>
+    <h2>🎓 Education</h2>
+    <ul>
+      <li><strong>MSc in Computer Science</strong> – Woolf University (2024 – 2026)<br>Coursework: Advanced Programming, Data Structures & Algorithms, LLD, HLD, Product Management<br>CGPA: 3.9 / 4</li>
+      <li><strong>B.E. in Computer Engineering</strong> – Smt. Kashibai Navale COE, Pune (2018 – 2022)<br>Coursework: OOP, DBMS, CN, OS, Web Technologies, Artificial Intelligence, Mobile Computing<br>CGPA: 9.6 / 10</li>
+    </ul>
   </section>
 
+  <hr>
   <section>
-    <h2>Certifications & Achievements</h2>
+    <h2>🧾 Certifications & Achievements</h2>
     <ul>
-      <li>450+ DSA Problems Solved</li>
+      <li>Solved 450+ DSA Problems</li>
       <li>Qualified GATE-CS 2022</li>
-      <li>Java Full Stack Cert. – Wipro/Great Learning</li>
-      <li>Azure Fundamentals (AZ-900), AWS Cloud Practitioner</li>
+      <li>Enterprise Java Full Stack Certification – Great Learning (Wipro)</li>
+      <li>Microsoft Azure Fundamentals (AZ-900)</li>
+      <li>AWS Certified Cloud Practitioner</li>
     </ul>
   </section>
 
+  <hr>
   <section>
-    <h2>Connect With Me</h2>
-    <p>📧 <a href="mailto:ajaykharat.er@gmail.com">ajaykharat.er@gmail.com</a><br>
-       🔗 <a href="https://www.linkedin.com/in/ajaykharat/">LinkedIn – Ajay Kharat</a><br>
-       🌍 Pune, India | Open to relocation / remote work</p>
+    <h2>📫 Let's Connect!</h2>
+    <p>
+      🔗 <a href="https://www.linkedin.com/in/ajaykharat/">LinkedIn – Ajay Kharat</a><br>
+      🌍 Pune, India | Open to relocation / remote work<br>
+      ✉️ <a href="mailto:ajaykharat.er@gmail.com">ajaykharat.er@gmail.com</a>
+    </p>
   </section>
 
-  <section class="stats">
-    <h2>GitHub Stats</h2>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ajaykharat-code&theme=cobalt&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="GitHub Stats">
+  <hr>
+  <section>
+    <blockquote>
+      “I don’t just write code. I design resilient systems, automate workflows, and lead initiatives that drive real business impact.”<br>
+      — Ajay Kharat
+    </blockquote>
   </section>
-
-  <footer style="text-align:center; padding: 2rem; font-style: italic; color: #666">
-    <p>“I don’t just write code. I design resilient systems, automate workflows, and lead initiatives that drive real business impact.”<br>— Ajay Kharat</p>
-  </footer>
 </body>
+
 </html>
