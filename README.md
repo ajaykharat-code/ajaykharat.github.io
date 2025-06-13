@@ -1,1 +1,0 @@
-# ajaykharat.github.io
