@@ -1303,19 +1303,24 @@ section h2 {
 
 .project-links {
     display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
+    gap: 10px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .project-links .btn {
-    padding: 12px 24px;
-    border-radius: 25px;
+    padding: 8px 16px;
+    border-radius: 20px;
     text-decoration: none;
     font-weight: 500;
     transition: all 0.3s ease;
     border: 2px solid transparent;
     position: relative;
     overflow: hidden;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .project-links .btn::before {
@@ -1483,6 +1488,7 @@ section h2 {
         flex-direction: row;
         gap: 8px;
         justify-content: center;
+        flex-wrap: nowrap;
     }
     
     .project-links .btn {
@@ -1490,6 +1496,7 @@ section h2 {
         padding: 6px 12px;
         font-size: 0.8rem;
         min-width: 80px;
+        flex-shrink: 0;
     }
     
     .project-card h3 {
@@ -1523,12 +1530,15 @@ section h2 {
     
     .project-links {
         gap: 6px;
+        flex-wrap: nowrap;
+        justify-content: center;
     }
     
     .project-links .btn {
         padding: 5px 10px;
         font-size: 0.75rem;
         min-width: 70px;
+        flex-shrink: 0;
     }
 }
 
