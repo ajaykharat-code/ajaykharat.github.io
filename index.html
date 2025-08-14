@@ -37,13 +37,56 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+        <!-- Animated Background Elements -->
+        <div class="space-background">
+            <div class="stars"></div>
+            <div class="twinkling"></div>
+            <div class="clouds"></div>
+            <div class="galaxy"></div>
+            <div class="nebula"></div>
+        </div>
+        
+        <!-- Floating Space Elements -->
+        <div class="floating-elements">
+            <div class="planet planet-1"></div>
+            <div class="planet planet-2"></div>
+            <div class="planet planet-3"></div>
+            <div class="asteroid asteroid-1"></div>
+            <div class="asteroid asteroid-2"></div>
+            <div class="comet"></div>
+        </div>
+        
+        <!-- Interactive Particles -->
+        <div class="particles-container"></div>
+        
+        <!-- Hero Content -->
         <div class="hero-content">
-            <h1>Hi, I'm <span class="highlight">Ajay Kharat</span></h1>
-            <p class="subtitle">Java Backend Developer | DevOps & Cloud Enthusiast | System Design Explorer</p>
+            <div class="cosmic-glow"></div>
+            <h1 class="hero-title">
+                <span class="title-line">Hi, I'm</span>
+                <span class="highlight cosmic-text">Ajay Kharat</span>
+            </h1>
+            <p class="subtitle cosmic-subtitle">
+                <span class="subtitle-line">Java Backend Developer</span>
+                <span class="subtitle-line">DevOps & Cloud Enthusiast</span>
+                <span class="subtitle-line">System Design Explorer</span>
+            </p>
             <div class="cta-buttons">
-                <a href="#contact" class="btn primary">Contact Me</a>
-                <a href="#projects" class="btn secondary">View Projects</a>
+                <a href="#contact" class="btn primary cosmic-btn">
+                    <span class="btn-glow"></span>
+                    <span class="btn-text">Contact Me</span>
+                </a>
+                <a href="#projects" class="btn secondary cosmic-btn">
+                    <span class="btn-glow"></span>
+                    <span class="btn-text">View Projects</span>
+                </a>
             </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+            <span class="scroll-text">Explore My Universe</span>
         </div>
     </section>
 
@@ -52,22 +95,72 @@
         <h2>About Me</h2>
         <div class="about-content">
             <div class="about-text">
-                <p>Passionate and results-driven Software Engineer with over 3.5 years of experience building scalable, secure, and high-performing backend systems in banking and pharmaceutical domains. Proficient in developing and maintaining Java Spring Boot microservices using MVC and event-driven architectures, with hands-on experience in DevOps, Cloud, and Data technologies.</p>
-                <p>Currently contributing to ING Bank, Belgium through Cognizant, where I design, develop, deploy, and maintain core integration microservices in the Cards & Daily Banking area. I've delivered 16+ RESTful microservices and enhanced 37+ existing services, driving significant improvements in performance and reliability across core banking systems.</p>
+                <div class="text-container">
+                    <div class="text-line">
+                        <span class="highlight-text">Passionate</span> and results-driven Software Engineer with over 
+                        <span class="highlight-text">3.5 years</span> of experience building scalable, secure, and high-performing backend systems in banking and pharmaceutical domains.
+                    </div>
+                    <div class="text-line">
+                        Proficient in developing and maintaining <span class="highlight-text">Java Spring Boot microservices</span> using MVC and event-driven architectures, with hands-on experience in <span class="highlight-text">DevOps, Cloud, and Data technologies</span>.
+                    </div>
+                    <div class="text-line">
+                        Currently contributing to <span class="highlight-text">ING Bank, Belgium</span> through Cognizant, where I design, develop, deploy, and maintain core integration microservices in the Cards & Daily Banking area. I've delivered <span class="highlight-text">16+ RESTful microservices</span> and enhanced <span class="highlight-text">37+ existing services</span>, driving significant improvements in performance and reliability across core banking systems.
+                    </div>
+                </div>
             </div>
             <div class="about-stats">
-                <div class="stat">
-                    <h3>3.5+</h3>
-                    <p>Years Experience</p>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-number" data-target="3.5">0</div>
+                        <div class="stat-label">Years Experience</div>
+                        <div class="stat-progress">
+                            <div class="progress-fill" style="width: 0%"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="stat">
-                    <h3>86+</h3>
-                    <p>Microservices</p>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-number" data-target="86">0</div>
+                        <div class="stat-label">Microservices</div>
+                        <div class="stat-progress">
+                            <div class="progress-fill" style="width: 0%"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="stat">
-                    <h3>400+</h3>
-                    <p>DSA Problems</p>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-number" data-target="400">0</div>
+                        <div class="stat-label">DSA Problems</div>
+                        <div class="stat-progress">
+                            <div class="progress-fill" style="width: 0%"></div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="about-floating-elements">
+            <div class="floating-icon floating-icon-1">
+                <i class="fab fa-java"></i>
+            </div>
+            <div class="floating-icon floating-icon-2">
+                <i class="fas fa-cloud"></i>
+            </div>
+            <div class="floating-icon floating-icon-3">
+                <i class="fas fa-database"></i>
+            </div>
+            <div class="floating-icon floating-icon-4">
+                <i class="fab fa-docker"></i>
             </div>
         </div>
     </section>
@@ -79,85 +172,139 @@
             <div class="skill-card">
                 <i class="fab fa-java"></i>
                 <h3>Java</h3>
+                <div class="skill-level">Expert</div>
+                <div class="skill-description">Core Java, J2EE, Spring Framework</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 95%"></div>
+                    <div class="progress" data-width="95%"></div>
                 </div>
             </div>
             <div class="skill-card">
                 <i class="fas fa-leaf"></i>
                 <h3>Spring Boot</h3>
+                <div class="skill-level">Advanced</div>
+                <div class="skill-description">Microservices, REST APIs, Spring Security</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 90%"></div>
+                    <div class="progress" data-width="90%"></div>
                 </div>
             </div>
             <div class="skill-card">
                 <i class="fas fa-database"></i>
                 <h3>SQL/NoSQL</h3>
+                <div class="skill-level">Advanced</div>
+                <div class="skill-description">PostgreSQL, MongoDB, Cassandra</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 85%"></div>
+                    <div class="progress" data-width="85%"></div>
                 </div>
             </div>
             <div class="skill-card">
                 <i class="fab fa-docker"></i>
                 <h3>DevOps</h3>
+                <div class="skill-level">Advanced</div>
+                <div class="skill-description">Docker, Kubernetes, CI/CD</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 85%"></div>
+                    <div class="progress" data-width="85%"></div>
                 </div>
             </div>
             <div class="skill-card">
                 <i class="fas fa-cloud"></i>
                 <h3>Cloud</h3>
+                <div class="skill-level">Intermediate</div>
+                <div class="skill-description">Azure, AWS, Cloud Architecture</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 80%"></div>
+                    <div class="progress" data-width="80%"></div>
                 </div>
             </div>
             <div class="skill-card">
                 <i class="fas fa-code-branch"></i>
                 <h3>System Design</h3>
+                <div class="skill-level">Advanced</div>
+                <div class="skill-description">Microservices, Scalability, Architecture</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 85%"></div>
+                    <div class="progress" data-width="85%"></div>
                 </div>
             </div>
             <div class="skill-card">
                 <i class="fas fa-stream"></i>
                 <h3>Kafka</h3>
+                <div class="skill-level">Intermediate</div>
+                <div class="skill-description">Event Streaming, Message Queues</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 80%"></div>
+                    <div class="progress" data-width="80%"></div>
                 </div>
             </div>
             <div class="skill-card">
                 <i class="fab fa-angular"></i>
                 <h3>Angular</h3>
+                <div class="skill-level">Intermediate</div>
+                <div class="skill-description">Frontend Development, TypeScript</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 75%"></div>
+                    <div class="progress" data-width="75%"></div>
                 </div>
             </div>
             <div class="skill-card">
                 <i class="fab fa-java"></i>
                 <h3>J2EE</h3>
+                <div class="skill-level">Advanced</div>
+                <div class="skill-description">Enterprise Java, Servlets, JSP</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 85%"></div>
+                    <div class="progress" data-width="85%"></div>
                 </div>
             </div>
             <div class="skill-card">
                 <i class="fas fa-brain"></i>
                 <h3>DSA</h3>
+                <div class="skill-level">Advanced</div>
+                <div class="skill-description">Algorithms, Data Structures, Problem Solving</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 90%"></div>
+                    <div class="progress" data-width="90%"></div>
                 </div>
             </div>
             <div class="skill-card">
                 <i class="fab fa-js-square"></i>
                 <h3>JavaScript</h3>
+                <div class="skill-level">Intermediate</div>
+                <div class="skill-description">ES6+, DOM Manipulation, Async Programming</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 80%"></div>
+                    <div class="progress" data-width="80%"></div>
                 </div>
             </div>
             <div class="skill-card">
                 <i class="fab fa-html5"></i>
                 <h3>HTML & CSS</h3>
+                <div class="skill-level">Advanced</div>
+                <div class="skill-description">Responsive Design, CSS3, Modern Layouts</div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 85%"></div>
+                    <div class="progress" data-width="85%"></div>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <i class="fas fa-cubes"></i>
+                <h3>Microservices</h3>
+                <div class="skill-level">Expert</div>
+                <div class="skill-description">Architecture, API Gateway, Service Discovery</div>
+                <div class="progress-bar">
+                    <div class="progress" data-width="90%"></div>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <i class="fas fa-puzzle-piece"></i>
+                <h3>Design Patterns</h3>
+                <div class="skill-level">Advanced</div>
+                <div class="skill-description">Creational, Structural, Behavioral Patterns</div>
+                <div class="progress-bar">
+                    <div class="progress" data-width="88%"></div>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Grafana & ELK</h3>
+                <div class="skill-level">Intermediate</div>
+                <div class="skill-description">Monitoring, Logging, Data Visualization</div>
+                <div class="progress-bar">
+                    <div class="progress" data-width="78%"></div>
                 </div>
             </div>
         </div>
@@ -168,39 +315,74 @@
         <h2>Work Experience</h2>
         <div class="timeline">
             <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="marker-dot"></div>
+                    <div class="marker-line"></div>
+                </div>
                 <div class="timeline-content">
-                    <h3>Software Engineer</h3>
-                    <h4>Cognizant | ING Bank</h4>
-                    <p class="date">Apr 2023 - Present</p>
-                    <ul>
-                        <li>Developed scalable caching mechanism using Cassandra and Kafka-based ETL APIs</li>
-                        <li>Delivered 16+ microservices and enhanced 37+ existing services</li>
-                        <li>Engineered and maintained 86+ Java-based integration services in Azure Cloud</li>
-                        <li>Led and mentored a team of 5 junior developers</li>
-                    </ul>
+                    <div class="company-logo">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="content-header">
+                        <h3>Software Engineer</h3>
+                        <h4>Cognizant | ING Bank</h4>
+                        <p class="date">Apr 2023 - Present</p>
+                    </div>
+                    <div class="content-body">
+                        <ul>
+                            <li>Developed scalable caching mechanism using Cassandra and Kafka-based ETL APIs</li>
+                            <li>Delivered 16+ microservices and enhanced 37+ existing services</li>
+                            <li>Engineered and maintained 86+ Java-based integration services in Azure Cloud</li>
+                            <li>Led and mentored a team of 5 junior developers</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+            
             <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="marker-dot"></div>
+                    <div class="marker-line"></div>
+                </div>
                 <div class="timeline-content">
-                    <h3>Junior Software Engineer</h3>
-                    <h4>Cognizant | Merck KGaA</h4>
-                    <p class="date">Jun 2022 - Apr 2023</p>
-                    <ul>
-                        <li>Developed rule-driven engine using Spring Batch and Spring Mail</li>
-                        <li>Implemented role-based access control via Spring Security</li>
-                        <li>Built robust batch pipeline for data ingestion and validation</li>
-                    </ul>
+                    <div class="company-logo">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <div class="content-header">
+                        <h3>Junior Software Engineer</h3>
+                        <h4>Cognizant | Merck KGaA</h4>
+                        <p class="date">Jun 2022 - Apr 2023</p>
+                    </div>
+                    <div class="content-body">
+                        <ul>
+                            <li>Developed rule-driven engine using Spring Batch and Spring Mail</li>
+                            <li>Implemented role-based access control via Spring Security</li>
+                            <li>Built robust batch pipeline for data ingestion and validation</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+            
             <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="marker-dot"></div>
+                    <div class="marker-line"></div>
+                </div>
                 <div class="timeline-content">
-                    <h3>Software Engineer Intern</h3>
-                    <h4>LTIMindtree</h4>
-                    <p class="date">Jan 2022 - Jun 2022</p>
-                    <ul>
-                        <li>Built a full-stack Pharmacy Supply Management System using Spring Boot and Angular, automating MR scheduling, demand recording, and medicine distribution—evaluated and approved by senior managers</li>
-                        <li>Designed secure microservices architecture with JWT-based authentication and RESTful APIs, enabling real-time scheduling and stock-based pharmacy supply, demonstrating practical application of backend and frontend integration</li>
-                    </ul>
+                    <div class="company-logo">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="content-header">
+                        <h3>Software Engineer Intern</h3>
+                        <h4>LTIMindtree</h4>
+                        <p class="date">Jan 2022 - Jun 2022</p>
+                    </div>
+                    <div class="content-body">
+                        <ul>
+                            <li>Built a full-stack Pharmacy Supply Management System using Spring Boot and Angular, automating MR scheduling, demand recording, and medicine distribution—evaluated and approved by senior managers</li>
+                            <li>Designed secure microservices architecture with JWT-based authentication and RESTful APIs, enabling real-time scheduling and stock-based pharmacy supply, demonstrating practical application of backend and frontend integration</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -216,6 +398,9 @@
             <div class="projects-grid">
                 <!-- First Group -->
                 <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
                     <div class="project-content">
                         <h3>Movie Ticket Booking System</h3>
                         <p>A robust movie ticket booking system built using Java, Spring Boot, PostgreSQL, and JPA, simulating real-world behavior with accurate concurrency and transaction handling.</p>
@@ -232,6 +417,9 @@
                 </div>
 
                 <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-calculator"></i>
+                    </div>
                     <div class="project-content">
                         <h3>Expense Sharing & Settlement System</h3>
                         <p>An intelligent backend system for managing shared expenses and minimizing settlements, built with Java, Spring Boot, and Design Patterns.</p>
@@ -248,6 +436,9 @@
                 </div>
 
                 <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-utensils"></i>
+                    </div>
                     <div class="project-content">
                         <h3>Recipe Search Application</h3>
                         <p>A dynamic food recipe search platform that enables users to discover, favorite, and manage meal plans by fetching real-time data from the Forkify API.</p>
@@ -265,6 +456,9 @@
 
                 <!-- Second Group -->
                 <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-wallet"></i>
+                    </div>
                     <div class="project-content">
                         <h3>Budget Counter</h3>
                         <p>A lightweight web application to help users calculate and track their monthly budgets based on income and expenses.</p>
@@ -281,6 +475,9 @@
                 </div>
 
                 <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-dice"></i>
+                    </div>
                     <div class="project-content">
                         <h3>Roll Dice Game</h3>
                         <p>A browser-based interactive two-player dice game with custom logic and dynamic gameplay.</p>
@@ -297,6 +494,9 @@
                 </div>
 
                 <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
                     <div class="project-content">
                         <h3>OwnZone</h3>
                         <p>A full-stack web application combining E-Commerce platform with an inbuilt Blog system, developed using Django.</p>
@@ -314,6 +514,9 @@
 
                 <!-- Third Group -->
                 <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-pizza-slice"></i>
+                    </div>
                     <div class="project-content">
                         <h3>FoodZone</h3>
                         <p>A static and fully responsive landing page for a fictional food delivery company.</p>
@@ -330,6 +533,9 @@
                 </div>
 
                 <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-blog"></i>
+                    </div>
                     <div class="project-content">
                         <h3>TechnoWorld</h3>
                         <p>A fully functional dynamic blog platform developed using Django, showcasing clean UI design and content management features.</p>
@@ -357,47 +563,106 @@
         <h2>Get In Touch</h2>
         <div class="contact-content">
             <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <p>ajaykharat.er@gmail.com</p>
+                <div class="contact-header">
+                    <h3>Let's Connect!</h3>
+                    <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.</p>
                 </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <p>+91 7249075805</p>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p>Pune, Maharashtra, India</p>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-linkedin"></i>
-                    <p><a href="https://linkedin.com/in/ajaykharat" target="_blank">linkedin.com/in/ajaykharat</a></p>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-github"></i>
-                    <p><a href="https://github.com/ajaykharat-code" target="_blank">github.com/ajaykharat-code</a></p>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-globe"></i>
-                    <p><a href="https://ajaykharat.info" target="_blank">ajaykharat.info</a></p>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:ajaykharat.er@gmail.com">ajaykharat.er@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+917249075805">+91 7249075805</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Pune, Maharashtra, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://linkedin.com/in/ajaykharat" target="_blank">linkedin.com/in/ajaykharat</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/ajaykharat-code" target="_blank">github.com/ajaykharat-code</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Website</h4>
+                            <p><a href="https://ajaykharat.info" target="_blank">ajaykharat.info</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <form class="contact-form">
-                <div class="form-group">
-                    <input type="text" id="name" name="name" required>
-                    <label for="name">Your Name</label>
+                <div class="form-header">
+                    <h3>Send Me a Message</h3>
+                    <p>I'll get back to you as soon as possible!</p>
                 </div>
                 <div class="form-group">
-                    <input type="email" id="email" name="email" required>
-                    <label for="email">Your Email</label>
+                    <div class="input-container">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                        <div class="input-line"></div>
+                        <i class="fas fa-user"></i>
+                    </div>
                 </div>
                 <div class="form-group">
-                    <textarea id="message" name="message" required></textarea>
-                    <label for="message">Your Message</label>
+                    <div class="input-container">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                        <div class="input-line"></div>
+                        <i class="fas fa-envelope"></i>
+                    </div>
                 </div>
-                <button type="submit" class="btn primary">Send Message</button>
+                <div class="form-group">
+                    <div class="input-container">
+                        <textarea id="message" name="message" required></textarea>
+                        <label for="message">Your Message</label>
+                        <div class="input-line"></div>
+                        <i class="fas fa-comment"></i>
+                    </div>
+                </div>
+                <button type="submit" class="btn primary submit-btn">
+                    <span class="btn-text">Send Message</span>
+                    <span class="btn-icon">
+                        <i class="fas fa-paper-plane"></i>
+                    </span>
+                    <div class="btn-ripple"></div>
+                </button>
             </form>
         </div>
+        
     </section>
 
     <!-- Footer -->
@@ -408,7 +673,7 @@
             <a href="https://www.ajaykharat.info/" target="_blank"><i class="fas fa-globe"></i></a>
             <a href="mailto:ajaykharat.er@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
-        <p>&copy; 2025 Ajay Kharat. All rights reserved.</p>
+        <p>&copy; 2025 | Made with ❤️ by Ajay Kharat | Portfolio</p>
     </footer>
 
     <script src="script.js"></script>
